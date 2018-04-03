@@ -1,0 +1,116 @@
+/* login.css */
+.title {
+  left: calc(50% - 240px);
+  position: absolute;
+  top: 90px;
+  font-size: 80px;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.linkstyle:hover {
+  color: #5d96d58c !important;
+  cursor: pointer;
+
+}
+
+.linkstyle {
+  padding: 10px;
+  color: red;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  position: relative;
+  left: 80%;
+}
+
+.linkstyle:hover,
+.linkstyle:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+/* a:hover {
+    transform: scale(1.5);
+} */
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  text-align: center;
+}
+label .label-text {
+  color: #9B9B9B;
+  cursor: text;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  -moz-transform: translateY(-34px);
+  -ms-transform: translateY(-34px);
+  -webkit-transform: translateY(-34px);
+  transform: translateY(-34px);
+  transition: all 0.3s;
+}
+label input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #4A4A4A;
+  color: black;
+  font-size: 23px;
+  letter-spacing: -1px;
+  outline: 0;
+  padding: 5px 20px;
+  text-align: center;
+  transition: all 0.3s;
+  width: 200px;
+}
+label input:focus {
+  max-width: 100%;
+  width: 400px;
+}
+label input:focus + .label-text {
+  color: #F0F0F0;
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+label input:valid + .label-text {
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
+button {
+  background-color: #333333;
+  border: 2px solid white;
+  border-radius: 27px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: all 200ms;
+}
+button:hover, button:focus {
+  background-color: white;
+  color: #333333;
+  outline: 0;
+}

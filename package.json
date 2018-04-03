@@ -1,0 +1,44 @@
+{
+  "name": "stock-analysis",
+  "version": "1.0.0",
+  "description": "stock analysis using value investing philosophy",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "seed": "node scripts/seedDB.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installDeps": "yarn && cd client && yarn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmou21/value-invest.git"
+  },
+  "author": "Zack Moumen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmou21/value-invest/issues"
+  },
+  "homepage": "https://github.com/zmou21/value-invest#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "chart.js": "^2.7.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.3",
+    "react-chartjs-2": "^2.7.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.2",
+    "request": "^2.85.0",
+    "sequelize": "^4.37.4",
+    "yahoo-finance": "^0.3.5"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
+  }
+}
