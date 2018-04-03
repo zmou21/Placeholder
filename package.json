@@ -6,7 +6,7 @@
   "scripts": {
     "server": "node server.js",
     "client": "node scripts/start-client.js",
-    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "start": "concurrently \"nodemon server.js\" \"yarn client\"",
     "build": "node scripts/build.js",
     "seed": "node scripts/seedDB.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zmou21/value-invest.git"
+    "url": "git+https://github.com/zmou21/Placeholder.git"
   },
   "author": "Zack Moumen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zmou21/value-invest/issues"
+    "url": "https://github.com/zmou21/Placeholder/issues"
   },
-  "homepage": "https://github.com/zmou21/value-invest#readme",
+  "homepage": "https://github.com/zmou21/Placeholder#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.2",
